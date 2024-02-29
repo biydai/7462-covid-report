@@ -1,15 +1,12 @@
-Minnesota COVID Report
-================
+# Minnesota COVID Report
 
-Report last run: 2023-04-06 22:07:43
+
+Report last run: 2024-02-29 04:38:07
 
 ## Introduction
 
 This is an example report that uses COVID-19 data from the New York
 Times to illustrate the use of automation processes.
-
-First, we load some necessary libraries, define some key variables, then
-read in the data:
 
 ``` r
 library(dplyr)
@@ -25,7 +22,7 @@ POP_DENOM <- 100000
 ## County populations (read from a local data file in this repo)
 pops <- read_csv("countypop_us.csv")
 
-## COVID-19 case counts from the NYTimes (read from the web; updated daily)
+## COVID-19 case counts from the NYTimes
 county_data <- read_csv("https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties-2023.csv")
 
 rate_data <- county_data %>%
