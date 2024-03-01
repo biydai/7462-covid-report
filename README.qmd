@@ -17,6 +17,8 @@ This is an example report that uses COVID-19 data from the New York Times to ill
 
 I decided to make a small change prior to the lecture.
 
+I decided to make some changes during the lecture.
+
 ```{r}
 library(dplyr)
 library(ggplot2)
